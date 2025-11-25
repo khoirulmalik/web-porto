@@ -4,7 +4,8 @@
 
 @layer base {
   body {
-    @apply bg-gradient-to-br from-dark-200 to-dark-100 text-gray-300 scroll-smooth min-h-screen;
+    @apply text-gray-300 scroll-smooth min-h-screen;
+    background: linear-gradient(135deg, #0f0f23 0%, #1a1a3a 100%);
   }
 }
 
@@ -32,4 +33,43 @@
   .card-base:hover {
     @apply -translate-y-1 shadow-2xl border-primary/30;
   }
+}
+
+/* Swiper Custom Styles */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #00d4ff !important;
+  background: rgba(0, 212, 255, 0.1) !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 16px !important;
+}
+
+.swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.3) !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #00d4ff !important;
+}
+
+/* Animation for modal */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
 }
