@@ -27,6 +27,7 @@ export const certificatesData = [
     issuer: "Dicoding Indonesia",
     date: "Nov 2025 - Nov 2028",
     credentialId: "QLZ96O5RMZ5D",
+    credentialUrl: "https://www.dicoding.com/certificates/QLZ96O5RMZ5D",
     icon: FaNodeJs,
   },
   {
@@ -35,6 +36,7 @@ export const certificatesData = [
     issuer: "Dicoding Indonesia",
     date: "Nov 2025 - Nov 2028",
     credentialId: "1OP8JM58LPQK",
+    credentialUrl: "https://www.dicoding.com/certificates/1OP8JM58LPQK",
     icon: FaNodeJs,
   },
   {
@@ -43,6 +45,7 @@ export const certificatesData = [
     issuer: "Dicoding Indonesia",
     date: "Nov 2025 - Nov 2028",
     credentialId: "MEPJ2W0NWP3V",
+    credentialUrl: "https://www.dicoding.com/certificates/MEPJ2W0NWP3V",
     icon: FaServer,
   },
   {
@@ -51,6 +54,7 @@ export const certificatesData = [
     issuer: "Dicoding Indonesia",
     date: "Nov 2025 - Nov 2028",
     credentialId: "MEPJ235KLP3V",
+    credentialUrl: "https://www.dicoding.com/certificates/MEPJ235KLP3V",
     icon: FaCode,
   },
   {
@@ -59,6 +63,7 @@ export const certificatesData = [
     issuer: "Dicoding Indonesia",
     date: "Oct 2025",
     credentialId: "N9ZO2Q4KRPG5",
+    credentialUrl: "https://www.dicoding.com/certificates/N9ZO2Q4KRPG5",
     icon: FaAws,
   },
   {
@@ -67,6 +72,7 @@ export const certificatesData = [
     issuer: "Dicoding Indonesia",
     date: "Oct 2025 - Oct 2028",
     credentialId: "81P25V4DYPOY",
+    credentialUrl: "https://www.dicoding.com/certificates/81P25V4DYPOY",
     icon: FaCloud,
   },
   {
@@ -75,6 +81,7 @@ export const certificatesData = [
     issuer: "Dicoding Indonesia",
     date: "Oct 2025 - Oct 2028",
     credentialId: "53XEK9J8KXRN",
+    credentialUrl: "https://www.dicoding.com/certificates/53XEK9J8KXRN",
     icon: FaNetworkWired,
   },
   {
@@ -83,6 +90,7 @@ export const certificatesData = [
     issuer: "Dicoding Indonesia",
     date: "Oct 2025 - Oct 2028",
     credentialId: "ERZR2N0VQPYV",
+    credentialUrl: "https://www.dicoding.com/certificates/ERZR2N0VQPYV",
     icon: FaHtml5,
   },
   {
@@ -91,6 +99,7 @@ export const certificatesData = [
     issuer: "Dicoding Indonesia",
     date: "Dec 2023 - Dec 2026",
     credentialId: "81P2V88RQPOY",
+    credentialUrl: "https://www.dicoding.com/certificates/81P2V88RQPOY",
     icon: FaHtml5,
   },
 
