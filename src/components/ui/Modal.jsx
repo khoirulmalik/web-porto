@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { HiX } from "react-icons/hi";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const Modal = ({ isOpen, onClose, data }) => {
   useEffect(() => {
@@ -38,6 +39,34 @@ const Modal = ({ isOpen, onClose, data }) => {
         <h2 className="text-3xl font-bold text-white mb-6 pr-12">
           {data.title}
         </h2>
+
+        {/* Action Buttons */}
+        {(data.githubUrl || data.demoUrl) && (
+          <div className="flex flex-wrap gap-4 mb-6">
+            {data.githubUrl && (
+              <a
+                href={data.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white rounded-lg font-semibold transition-all duration-300 hover:shadow-lg"
+              >
+                <FaGithub className="text-xl" />
+                <span>View Repository</span>
+              </a>
+            )}
+            {data.demoUrl && (
+              <a
+                href={data.demoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary to-blue-600 text-white rounded-lg font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-primary/40"
+              >
+                <FaExternalLinkAlt className="text-lg" />
+                <span>Live Demo</span>
+              </a>
+            )}
+          </div>
+        )}
 
         {/* Details Grid */}
         {data.role && data.duration && (
