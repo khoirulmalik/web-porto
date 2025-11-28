@@ -4,7 +4,7 @@ const BackgroundEffects = () => {
   useEffect(() => {
     const createParticles = () => {
       const hero = document.body;
-      const particleCount = 50; 
+      const particleCount = 200;
 
       for (let i = 0; i < particleCount; i++) {
         const particle = document.createElement("div");

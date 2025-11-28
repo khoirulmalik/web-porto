@@ -19,7 +19,7 @@ const Hero = () => {
   };
 
   const handleDownloadCV = () => {
-    const cvPath = "/cv/Khoirul_Malik_CV.pdf";
+    const cvPath = "/src/assets/hero/cv/CV_Khoirul Malik.pdf";
     const link = document.createElement("a");
     link.href = cvPath;
     link.download = "Khoirul_Malik_CV.pdf";
@@ -35,7 +35,7 @@ const Hero = () => {
     >
       {/* --- BACKGROUND EFFECTS --- */}
       {/* 1. Tech Grid Background */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none" />
+      {/* <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none" /> */}
 
       {/* 2. Gradient Blobs */}
       <div className="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-primary/20 rounded-full blur-[120px] -z-10 animate-pulse-slow" />
@@ -50,9 +50,7 @@ const Hero = () => {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
             </span>
-            <span className="text-sm text-gray-300 font-medium">
-              Available for Projects
-            </span>
+            <span className="text-sm text-gray-300 font-medium">Available</span>
           </div>
 
           {/* Headline */}
@@ -65,17 +63,16 @@ const Hero = () => {
 
           {/* Role */}
           <h2 className="text-xl sm:text-2xl md:text-3xl font-medium text-gray-300 mb-6 flex flex-col sm:flex-row gap-2">
-            <span>Full-Stack Developer</span>
+            <span>Software Enginner</span>
             <span className="hidden sm:block text-gray-600">|</span>
-            <span className="text-primary">Cloud Engineer</span>
+            <span className="text-primary">Cloud & DevOps Engineer</span>
           </h2>
 
           {/* Description */}
           <p className="text-base sm:text-lg text-gray-400 mb-8 max-w-2xl leading-relaxed">
-            Final-year Internet Engineering student at{" "}
-            <strong>UGM (GPA 3.63)</strong>. Passionate about building scalable
-            web applications and managing cloud infrastructure. Let's build
-            something impactful together.
+            Final-year Internet Engineering student at <strong>UGM</strong>.
+            Passionate about building scalable web applications and managing
+            cloud infrastructure. Let's build something impactful together.
           </p>
 
           {/* Buttons */}
@@ -103,7 +100,6 @@ const Hero = () => {
         </div>
 
         {/* --- RIGHT SIDE: VISUAL / ANIMATED TECH STACK --- */}
-        {/* Bagian ini menggantikan "kehampaan" jika tidak ada foto profil */}
         <div className="order-1 lg:order-2 flex justify-center lg:justify-end relative">
           {/* Abstract Container Circle */}
           <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] lg:w-[500px] lg:h-[500px]">
@@ -187,22 +183,22 @@ const Hero = () => {
 
       {/* Custom Animations in styles (if not in tailwind.config) */}
       <style>{`
-        @keyframes float {
-          0%, 100% { transform: translateY(0px); }
-          50% { transform: translateY(-15px); }
-        }
-        .animate-float-slow { animation: float 6s ease-in-out infinite; }
-        .animate-float-medium { animation: float 5s ease-in-out infinite; animation-delay: 1s; }
-        .animate-float-fast { animation: float 4s ease-in-out infinite; animation-delay: 2s; }
-        
-        @keyframes spin-slow { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-        @keyframes spin-slow-reverse { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
-        
-        .animate-spin-slow { animation: spin-slow 20s linear infinite; }
-        .animate-spin-slow-reverse { animation: spin-slow-reverse 25s linear infinite; }
-        
-        .animate-pulse-slow { animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
-      `}</style>
+          @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+          }
+          .animate-float-slow { animation: float 6s ease-in-out infinite; }
+          .animate-float-medium { animation: float 5s ease-in-out infinite; animation-delay: 1s; }
+          .animate-float-fast { animation: float 4s ease-in-out infinite; animation-delay: 2s; }
+          
+          @keyframes spin-slow { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+          @keyframes spin-slow-reverse { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+          
+          .animate-spin-slow { animation: spin-slow 20s linear infinite; }
+          .animate-spin-slow-reverse { animation: spin-slow-reverse 25s linear infinite; }
+          
+          .animate-pulse-slow { animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+        `}</style>
     </section>
   );
 };
