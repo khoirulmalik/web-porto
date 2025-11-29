@@ -19,7 +19,7 @@ const Hero = () => {
   };
 
   const handleDownloadCV = () => {
-    const cvPath = "/src/assets/hero/cv/CV_Khoirul Malik.pdf";
+    const cvPath = "../../../public/assets/hero/cv/CV_Khoirul Malik.pdf";
     const link = document.createElement("a");
     link.href = cvPath;
     link.download = "Khoirul_Malik_CV.pdf";

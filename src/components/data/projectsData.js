@@ -221,9 +221,9 @@ export const projectsData = [
       "An end-to-end CI/CD pipeline for React applications using Jenkins, automated testing, Docker deployments, and observability with Prometheus & Grafana.",
     icon: FaRocket,
     images: [
-      "/src/assets/cicd-project/jenkins-pipeline.png",
-      "/src/assets/cicd-project/grafana-dashboard.png",
-      "/src/assets/cicd-project/prometheus-metrics.png",
+      "../../../public/assets/cicd-project/jenkins-pipeline.png",
+      "../../../public/assets/cicd-project/grafana-dashboard.png",
+      "../../../public/assets/cicd-project/prometheus-metrics.png",
     ],
     techStack: [
       "Jenkins",
@@ -320,7 +320,7 @@ export const projectsData = [
     description:
       "A Linux-based CLI tool that forecasts AQI using Simple Linear Regression.",
     icon: FaChartLine,
-    images: ["/src/assets/research/air-quality/chart.jpg"],
+    images: ["../../../public/assets/research/air-quality/chart.jpg"],
     techStack: ["Linux", "Bash Script", "Gnuplot", "bc"],
     modalDescription:
       "A research-oriented CLI program built to predict AQI from PM2.5 values using Simple Linear Regression. Includes mathematical modeling, automated computation via Bash scripting, and chart generation using Gnuplot.",
@@ -345,7 +345,9 @@ export const projectsData = [
     description:
       "A smart home security prototype using ESP32-CAM and ultrasonic sensors with real-time Telegram notifications.",
     icon: FaMicrochip,
-    images: ["/src/assets/projects/iot-security/circuit-diagram.jpg"],
+    images: [
+      "../../../public/assets/projects/iot-security/circuit-diagram.jpg",
+    ],
     techStack: [
       "Internet of Things (IoT)",
       "ESP32-CAM",
@@ -376,7 +378,7 @@ export const projectsData = [
     description:
       "A secure motorcycle ignition system using RFID-based E-KTP authentication as a digital key replacement.",
     icon: FaMotorcycle,
-    images: ["/src/assets/projects/embedded/wiring-diagram.jpg"],
+    images: ["../../../public/assets/projects/embedded/wiring-diagram.jpg"],
     techStack: [
       "Arduino Uno",
       "C++",

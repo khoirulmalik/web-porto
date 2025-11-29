@@ -39,8 +39,8 @@ export const experiencesData = [
       "Docker",
     ],
     images: [
-      "/src/assets/work-experience/gmf/WhatsApp Image 2025-11-28 at 03.47.25_0c2ef31f.jpg",
-      "/src/assets/work-experience/gmf/WhatsApp Image 2025-11-28 at 03.47.25_ef44171f.jpg",
+      "../../../public/assets/work-experience/gmf/WhatsApp Image 2025-11-28 at 03.47.25_0c2ef31f.jpg",
+      "../../../public/assets/work-experience/gmf/WhatsApp Image 2025-11-28 at 03.47.25_ef44171f.jpg",
     ],
   },
   {
@@ -72,7 +72,7 @@ export const experiencesData = [
       "PostgreSQL",
       "Prisma ORM",
     ],
-    images: ["/src/assets/work-experience/alazka/dokum 1 (1).jpg"],
+    images: ["../../../public/assets/work-experience/alazka/dokum 1 (1).jpg"],
   },
   {
     id: 3,
@@ -98,7 +98,7 @@ export const experiencesData = [
     ],
     techStack: ["Node.js", "Express.js", "MongoDB", "WebSocket", "OpenCV"],
     images: [
-      "/src/assets/work-experience/pdu/WhatsApp Image 2025-11-28 at 03.55.10_f3856761.jpg",
+      "../../../public/assets/work-experience/pdu/WhatsApp Image 2025-11-28 at 03.55.10_f3856761.jpg",
     ],
   },
   {
@@ -123,8 +123,8 @@ export const experiencesData = [
     ],
     techStack: ["Vue.js", "Node.js", "Express.js", "MongoDB", "Chatbot"],
     images: [
-      "/src/assets/work-experience/kidiko/WhatsApp Image 2025-11-28 at 03.55.11_b4ce10ec.jpg",
-      "/src/assets/work-experience/kidiko/WhatsApp Image 2025-11-28 at 03.55.10_004e21d2.jpg",
+      "../../../public/assets/work-experience/kidiko/WhatsApp Image 2025-11-28 at 03.55.11_b4ce10ec.jpg",
+      "../../../public/assets/work-experience/kidiko/WhatsApp Image 2025-11-28 at 03.55.10_004e21d2.jpg",
     ],
   },
   {
@@ -156,7 +156,7 @@ export const experiencesData = [
       "MongoDB",
     ],
     images: [
-      "/src/assets/work-experience/sonus/WhatsApp Image 2025-11-28 at 03.52.51_97c315f2.jpg",
+      "../../../public/assets/work-experience/sonus/WhatsApp Image 2025-11-28 at 03.52.51_97c315f2.jpg",
     ],
   },
 ];

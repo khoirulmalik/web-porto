@@ -167,7 +167,7 @@ const FeaturedProjects = () => {
                         <ProjectIcon className="text-5xl text-primary" />
                       </div>
                       <span className="text-gray-500 font-mono text-sm uppercase tracking-widest">
-                        Backend / System Project
+                        Project
                       </span>
                     </div>
                   </div>
